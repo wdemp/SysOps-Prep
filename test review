@@ -3,7 +3,10 @@ Your team has developed a set of Lambda functions, and they need to be placed in
 The Answer I chose was wrong because it did not take into account that Cloudtrail deals specifically with APIS. Since this quesiton was about VPC control. 
 The VPC flow log is a better choice for troubleshooting why network traffic isn't reaching the instances like it should be.
 
-You have 2 VPC’s , VPCA(10.0.0.0/16) and VPCB(20.0.0.0/16). You create a VPC peering connection which has an id of pcx-1a2b1a2b between the 2 VPC’s. Which of the following route entries need to be added to the route tables to ensure that traffic can flow across the VPC’s. Choose 2 answers from the options given below
+
+
+You have 2 VPC’s , VPCA(10.0.0.0/16) and VPCB(20.0.0.0/16). You create a VPC peering connection which has an id of pcx-1a2b1a2b between the 2 VPC’s. 
+Which of the following route entries need to be added to the route tables to ensure that traffic can flow across the VPC’s. Choose 2 answers from the options given below
 the answers I chose were: 
 A.
 In VPCA (Destination:20.0.0.0/16 and Target: pcx-1a2b1a2b)
@@ -12,3 +15,4 @@ In VPCA (Destination:20.0.0.0/16 and Target: pcx-1a2b1a2b)
 B.
 In VPCA (Destination:10.0.0.0/16 and Target: pcx-1a2b1a2b)
 
+The first answer was correct because it matches the IP address in the question 
